@@ -1,0 +1,38 @@
+﻿
+
+
+<h2>Index</h2>
+<link href="Content/bootstrap.min.css" rel="stylesheet" />
+
+<body ng-app="ApplicationModule">
+    <div>
+        <div>
+            <div>
+                <table>
+                    <tr>
+                        <td><a ng-show="$root.showMe" href="showemployees"> Show Employees </a></td>
+                        <td><a ng-show ="$root.showMe" href="addemployee"> Add Employee </a></td>
+                    </tr>
+                </table>
+            </div>
+            <div style="border:1px solid black">
+                <div ng-view></div>
+            </div>
+        </div>
+    </div>
+     
+</body>
+
+
+
+  <script type="text/javascript" src="Scripts/angular.js"></script>   
+  <script type="text/javascript" src="Scripts/angular-route.min.js"></script>   
+  <script type="text/javascript" src="MyScripts/Module.js"></script>
+<script src="MyScripts/Services.js"></script>
+  <script type="text/javascript" src="MyScripts/ShowEmployeesController.js"></script> 
+  <script type="text/javascript" src="MyScripts/AddEmpController.js"></script> 
+    <script type="text/javascript" src="MyScripts/EditEmployeeController.js"></script> 
+    <script type="text/javascript" src="MyScripts/DeleteEmployeeController.js"></script>  
+    <script type="text/javascript" src="MyScripts/LoginController.js"></script>  
+
+
